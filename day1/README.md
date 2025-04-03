@@ -39,3 +39,9 @@ Python selbst wird auch einige komplexere Themen haben und manche Dinge sind auf
 Python ist neben Java und Go eine der beliebtesten Programmiersprachen im Bereich Backend.
 
 Probiere es aus, versuche dich an alten PB Aufgaben und setze diese mit Hilfe von google in Python um.
+
+## Links
+
+- :link: [Python Docs](https://docs.python.org/release/3.13.1/tutorial/)
+
+- :link: [Python Cheatsheet](https://www.pythoncheatsheet.org/cheatsheet/)
