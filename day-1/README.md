@@ -1,4 +1,4 @@
-# Einfache Einleitung in Python (PB)
+# Day 1 - Einfache Einleitung in Python (PB)
 
 - Arbeiten mit Zahlen und Strings
 - Variablen

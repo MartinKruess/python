@@ -1,5 +1,5 @@
-# print("Hallo World")
-# print(24)
+print("Hallo World")
+print(24)
 # mehrzeilige Ausgabe von Text inkl. Einrückungen
 print('''
 Hallo

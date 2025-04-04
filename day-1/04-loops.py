@@ -6,7 +6,10 @@ while i < 10:
 
 print("------FOR-STRING------")
 
-name = "Max"
+name = "Mustermann"
+
+print("index 0: ", name[0])
+print("index 6-end", name[6:])
 
 for element in name:
     print("char from Name: ", element)
@@ -15,6 +18,7 @@ print("------FOR-ARRAY------")
 
 first_list = [1, 2, 3, 4, 5]
 print("index 0: ", first_list[0])
+print("index 2-end", first_list[2:])
 
 for element in first_list:
     print("arrItem", element)
@@ -28,14 +32,20 @@ for element in first_obj:
 
 print("------FOR-ZÄHLER------")
 
-# range() erzeugt iterierbares Objekt 0-9 (exklusive)
-for element in range(10):
+# range() erzeugt iterierbares Objekt 0-5 (exklusiv)
+for element in range(5):
     print("count", element)
 
-# 1-9 
-for element in range(1, 10):
+print("""
+range(1, 5)""")
+
+# 1-5 (exklusiv)
+for element in range(1, 5):
     print("count", element)
 
-# 1-9 Schrittweite 2 (1, 3, 5, 7, 9)
-for element in range(1, 10, 2):
+print("""
+range(1, 5, 2)""")
+
+# 1-5 Schrittweite 2 (1, 3)
+for element in range(1, 5, 2):
     print("count", element)
